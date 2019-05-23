@@ -1,0 +1,10 @@
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+nav :hover{
+    background-color: gray;
+    padding: 1%;
+}
+
