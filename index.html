@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,9 +28,9 @@
 
                     <nav class="navbar navbar-dark bg-dark">                           
                         <a class="navbar-brand" href="#nav_row"><i class="fas fa-home"></i>PayHouse</a>
-                        <a class="navbar-brand" href="#">Login</a>
-                        <a class="navbar-brand" href="#">Blog</a>
-                        <a class="navbar-brand" href="#">Help</a>                    
+                        <a class="navbar-link" href="#">Login</a>
+                        <a class="navbar-link" href="#">Blog</a>
+                        <a class="navbar-link" href="#">Help</a>                    
                     </nav>
                 </div>
 
@@ -49,83 +49,86 @@
 
     <main>
 
-        <div class="row">
-            <div class="col-12">
+        <section id="Sec1"><!--Sec1-->
 
-                <h2>Hey !</h2>
+            <div class="row">
+                <div class="col-12">
 
-            </div>
-        </div>
+                    <h2>Hey !</h2>
 
-        <div class="row">
-            <div class="col-12">
-
-                <p>Here at PayHouse, we are constantly hard at work to continue making our product the best tool on the market for personal finance -- and this month was no exception.
-                    Check out some the new features we've added to our platform:
-                </p>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
-
-                <div class="img">
-                    <i class="fas fa-hand-holding-usd"></i>
                 </div>
-
-                <h3>Investing with PayHouse</h3>
-
-                <div>
-                    Make investments in the stock market or choose from several funds, then watch your savings grow!
-                </div>
-
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-4">
+            <div class="row">
+                <div class="col-12">
 
-                <div class="img">
-                    <i class="far fa-handshake"></i>
+                    <div id="text1">
+                        <p>
+                            Here at PayHouse, we are constantly hard at work to continue making our product the best tool on the market for personal finance -- and this month was no exception.
+                            Check out some the new features we've added to our platform:
+                        </p>
+                    </div>
+
                 </div>
-    
-                <h3>Manage charitable donations</h3>
-
-                <div>
-                    Find organizations that are making an impact and help support them directly from your PayHouse account.
-                </div>
-
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
         
-                <div class="img">
-                    <i class="far fa-lightbulb"></i>
+            <div class="row">
+                <div class="col-4">
+
+                    <div class="img">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+
+                    <h3>Investing with PayHouse</h3>
+
+                    <div class="text2">
+                        <p>
+                            Make investments in the stock market or choose from several funds, then watch your savings grow!
+                        </p>
+                    </div>
+
+                </div>
+                
+                <div class="col-4">
+
+                    <div class="img">
+                        <i class="far fa-handshake"></i>
+                    </div>
+        
+                    <h3>Manage charitable donations</h3>
+                    
+                    <p>
+                        Find organizations that are making an impact and help support them directly from your PayHouse account.
+                    </p>
+                        
                 </div>
             
-                <h3>SmartBudget feature</h3>
-        
-                <div>
-                    Track spending and automatically identify areas where you could be saving more with SmartBudget
+                <div class="col-4">
+            
+                    <div class="img">
+                        <i class="far fa-lightbulb"></i>
+                    </div>
+                
+                    <h3>SmartBudget feature</h3>
+            
+                    <p>
+                        Track spending and automatically identify areas where you could be saving more with SmartBudget
+                    </p>                   
+
                 </div>
-
             </div>
-        </div>
 
-        <div class="row">
+        </section><!--fin Sec1-->
+
+        <div class="row" id="link_row">
             <div class="col-12">
-
-            <a href="">
-                <button type="button" class="btn btn-success">Test out the features in PayHouse now! ></button>
-            </a>   
+            
+            <button type="button" class="btn1">Test out the features in PayHouse now! ></button>               
 
             </div>
         </div>
 
-        <section>
+        <section id="Sec2"><!--Sec2-->
 
             <div class="row">
                 <div class="col-12">
@@ -146,11 +149,9 @@
                         If you want to achieve financial stability after college, it's important that you don't fall into the common mistake that young professionals make.
                         Here's how you can do it!
                     </p>
-
-                    <a href="">
-                        <button type="button" class="btn btn-success">Read the full article ></button>
-                    </a>
-
+                   
+                    <button type="button" class="btn2">Read the full article ></button>
+                    
                 </div>
             </div>
 
@@ -171,17 +172,15 @@
                         New to the investing game? Or maybe you've just had some bad luck recently.
                         Either way, this article has all of the tips and insider information (not illegal inside Information, of course) that you need to invest like a pro!
                     </p>
-    
-                    <a href="">
-                        <button type="button" class="btn btn-success">Read the full article ></button>
-                    </a>
+                       
+                    <button type="button" class="btn btn-success">Read the full article ></button>                   
     
                 </div>
             </div>
 
-        </section>
+        </section><!--fin Sec2-->
 
-        <div class="row">
+        <div class="row" id="white_row">
             <div class="col-5">
 
                 <i class="fas fa-chart-line"></i>
@@ -199,13 +198,14 @@
                 </p>
 
                     
-                <a href="">
-                    <button type="button" class="btn btn-success">Sign up now! ></button>
-                </a>
+                
+                <button type="button" class="btn btn-success">Sign up now! ></button>
+                
+
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="last_row">
             <div class="col-12">
 
                 <h5>Need help with your PayHouse account?</h5>
@@ -245,7 +245,7 @@
                 <a href=""><i class="fab fa-twitter"></i></a> 
                 <a href=""><i class="fab fa-linkedin-in"></i></a> 
                 <a href=""><i class="fab fa-youtube"></i></a>   
-                
+
             </div>
         </div>
 
